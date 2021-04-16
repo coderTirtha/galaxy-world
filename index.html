@@ -1,0 +1,255 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Galaxy World</title>
+    <link rel="shortcut icon" type="image/jpg" href="logo.png"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-eOJMYsd53ii+scO/bJGFsiCZc+5NDVN2yr8+0RDqr0Ql0h+rP48ckxlpbzKgwra6" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="https://kit.fontawesome.com/f9c9f5cd0c.js" crossorigin="anonymous"></script>
+    <style>
+        .my-color {
+            background-color: rgba(156, 76, 18, 0.753);
+            border-radius: 20px;
+        }
+        .para {
+            font-size: 110%;
+        }
+        .my-color-1 {
+            background-color: rgba(255, 0, 255, 0.808);
+            border-radius: 20px;
+        }
+        .social-media-btn {
+            border: none;
+            border-radius: 5px;
+            font-size: 120%;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <header>
+
+            <!--Navbar starts here-->
+            <nav class="navbar navbar-expand-sm bg-dark navbar-dark fixed-top">
+                
+                <a href="index.html" class="navbar-brand">
+                    <img src="logo.png" alt="" style="width: 40px;">
+                </a>
+                <h1 class="text-white m-auto">Galaxy World</h1>
+                
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+
+
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav ml-auto">
+                        <li class="nav-item active"><a class="nav-link" href="index.html">Home</a></li>
+                        <li class="nav-item"><a class="nav-link" href="projects.html">Projects</a></li>
+                        <li class="nav-item dropdown"><a class="nav-link dropdown-toggle" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Contact</a>
+                            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                <a class="dropdown-item" href="mailto:tirthadas9777@gmail.com">Contact with developer</a>
+                                <a class="dropdown-item" href="https://www.facebook.com/tahsin.shamonti">Contact with article writer</a>
+                            </div>
+                        </li>
+                        <li class="nav-item"><a class="nav-link" href="about.html">About Us</a></li>
+                    </ul>
+                </div>
+                
+            </nav><br><br><br>
+
+            <!--Carousel starts here-->
+            <div id="carouselExampleDark" class="carousel carousel-dark slide" data-bs-ride="carousel">
+                <div class="carousel-indicators">
+                  <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                  <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                  <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                </div>
+                <div class="carousel-inner">
+                  <div class="carousel-item active" data-bs-interval="10000">
+                    <img src="img 1.jpg" class="d-block w-100" alt="..." width="800px">
+                  <div class="carousel-caption d-none d-md-block">
+                      <h4 style="background-color: bisque; padding-bottom: 1%; padding-top: 0.5%;">Global warming, an anxious discussion</h4>
+                      <p style="background-color: bisque; font-size: 105%;">In today's society, global warming has become a matter of great concern.</p>
+                    </div>
+                 </div>
+                  <div class="carousel-item" data-bs-interval="2000">
+                    <img src="img 2.jpg" class="d-block w-100" alt="..." width="800px">
+                    <div class="carousel-caption d-none d-md-block">
+                     <h4 style="background-color: bisque; padding-bottom: 1%; padding-top: 0.5%;">The polar ice is melting</h4>
+                     <p style="background-color: bisque; font-size: 105%;">Sea levels are rising due to the melting of polar ice caps.</p>
+                    </div>
+                 </div>
+                  <div class="carousel-item">
+                    <img src="img 3.jpg" class="d-block w-100" alt="..." width="800px">
+                   <div class="carousel-caption d-none d-md-block">
+                      <h4 style="background-color: bisque; padding-bottom: 1%; padding-top: 0.5%;">The whole world is at risk now</h4>
+                      <p style="background-color: bisque; font-size: 105%;">The whole world is going to suffer today due to global warming.</p>
+                    </div>
+                 </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="prev" style="color: whitesmoke;">
+                  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="next" style="color: whitesmoke;">
+                  <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Next</span>
+                </button>
+              </div>
+        </header><hr>
+
+        <main>
+            <!--First block-->
+            <div class="row my-color-1 m-auto">
+                <div class="col-8">
+                    <h2 class="ml-3 mt-2">
+                        Concept of Global Warming
+                    </h2>
+                    <p class="para mt-1 ml-4">
+                        According to the environmental protection agency (EPA) global warming is defined as the recent and on going rise in earth surface temperature  .People every where need to understand how  climate  change is going to  affect them and what can  they do to  cope, starting with understanding what is causing global warming and what effects it has in order to find out solutions and implement them (UNEP 2003) Therefore, educating people and making them aware of this matter by including global warming issues in  educational curricula at every level , and by revealing the misconception of student and people about global warming received from the mass media is of great importance.
+                    </p>
+                </div>
+                <div class="col-4">
+                    <img class="img-fluid rounded-circle ml-1 mt-4 mb-3 sm-mr-1" src="img 5.jpg" alt="" style="height: 250px; width: 250px;">
+                </div>
+            </div><hr>
+
+
+            <!--Second block-->
+            <div class="row my-color m-auto">
+                <div class="col-3">
+                    <img class="img-fluid rounded-circle ml-2 mt-5" src="img 4.png" alt="" style="width: 200px;">
+                </div>
+                <div class="col-8 ml-2">
+                    <h2 class="mt-5">
+                        Global Temparature is Rising
+                    </h2>
+                    <p class="para mt-1">
+                        Over the 50 years, the average  global temperature has increased   at  the fastest rate in  recorded history. And the experts see the trend   is accelerating: All but one of the 16 hottest years in NASA’S  134 years record  have occurred since 2000. Climate change deniers have   argued that there has been a “pause” or  a  “slowdown” in rising   global temperatures, but several recent studies , including  a 2015 paper published in the journal science, have disproved this claim .
+                    </p>
+                    <img class="img-fluid center mb-2 ml-2" src="global warming.jpg" alt="" style="width: 400px;">
+                    <h6 class="text-right ml-auto">#Photo source: <a style="text-decoration: none;" href="https://www.google.com/imgres?imgurl=https://climate.nasa.gov/system/internal_resources/details/original/2301_temp-graph-012721.jpg&imgrefurl=https://climate.nasa.gov/resources/global-warming-vs-climate-change/&docid=lmb6k8SoxXZsKM&tbnid=OlDz6jtb-n8JnM&vet=1&w=1280&h=716&hl=en-IN&source=sh/x/im">NASA Climate Change</a></h6>
+                </div>
+            </div><hr>
+
+
+          <!--accordion starts here-->
+            <div class="accordion accordion-flush" id="accordionFlushExample">
+                <div class="accordion-item">
+                  <h2 class="accordion-header" id="flush-headingOne">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
+                      Greenhouse Gases
+                    </button>
+                  </h2>
+                  <div id="flush-collapseOne" class="accordion-collapse collapse" aria-labelledby="flush-headingOne" data-bs-parent="#accordionFlushExample">
+                    <div class="accordion-body" style="background-color: rgba(128, 255, 0, 0.705); border-radius: 15px; margin-left: 1%; margin-right: 5%;margin-top: 1%; margin-bottom: 1%;">
+                      <h2>
+                        Greenhouse gas emission is increasing!!!
+                      </h2>
+                      <img src="img 7.jpg" class="img-fluid border border-dark d-block m-auto">
+                      <div style="font-size: 120%;">
+                        According to the environmental protection agency (EPA), global warming is defined as the recent and ongoing rise in earth surface temperature. The <a style="text-decoration: none;" href="https://www.sciencedirect.com/topics/agricultural-and-biological-sciences/greenhouse-gases">greenhouse gases</a> are the most contributors to climate pattern change. The greenhouse gases (GHGs) include <a style="text-decoration: none;" href="https://www.sciencedirect.com/topics/physics-and-astronomy/water-vapor">water vapor</a> (H2O), carbon dioxide (CO2), methane (CH4), <a style="text-decoration: none;" href="https://www.sciencedirect.com/topics/physics-and-astronomy/nitrous-oxide">nitrous oxide</a> (N2O) and fluorinated gases including hydrofluorocarbons (HFCs), perfluorocarbons (PFCs) and <a style="text-decoration: none;" href="https://www.sciencedirect.com/topics/agricultural-and-biological-sciences/sulfur-hexafluoride">sulfur hexafluoride</a> (SF6). The hazard of global warming is one of the most important and critical problems of the world (<a style="text-decoration: none;" href="https://www.sciencedirect.com/science/article/pii/S1815385216000158#b0095">Gul et al., 2009</a>,<a style="text-decoration: none;" href="https://www.sciencedirect.com/science/article/pii/S1815385216000158#b0085">GCRIO, 2011</a>,<a style="text-decoration: none;" href="https://www.sciencedirect.com/science/article/pii/S1815385216000158#b0140">Ozbayrak et al., 2011</a>,<a style="text-decoration: none;" href="https://www.sciencedirect.com/science/article/pii/S1815385216000158#b0075">EPA, 2013a</a>,<a style="text-decoration: none;" href="https://www.sciencedirect.com/science/article/pii/S1815385216000158#b0080">EPA, 2013b</a>).
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="accordion-item">
+                  <h2 class="accordion-header" id="flush-headingTwo">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseTwo" aria-expanded="false" aria-controls="flush-collapseTwo">
+                      Greenhouse effect
+                    </button>
+                  </h2>
+                  <div id="flush-collapseTwo" class="accordion-collapse collapse" aria-labelledby="flush-headingTwo" data-bs-parent="#accordionFlushExample">
+                    <div class="accordion-body" style="background-color: rgba(255, 217, 0, 0.767); margin-left: 5%; margin-right: 1%;margin-top: 1%; margin-bottom: 1%; border-radius: 15px; font-size: 120%; padding-right: 2%;">
+                      <div style="padding-right: 5%;">
+                        <h2>
+                          Greenhouse effect is impacting on our Climate!!!
+                        </h2>
+                        CO2 is the most contributed gas to the <a style="text-decoration: none;" href="https://www.sciencedirect.com/topics/agricultural-and-biological-sciences/greenhouse-effect">greenhouse effect</a> accounting for 80% of the impact. CO2 and other gases arise from combustion of <a style="text-decoration: none;" href="https://www.sciencedirect.com/topics/agricultural-and-biological-sciences/fossil-fuels">fossil fuels</a>, agricultural activities, industry, energy use and fertilizers (<a style="text-decoration: none;" href="https://www.sciencedirect.com/science/article/pii/S1815385216000158#b0140">Ozbayrak et al., 2011</a>). It is believed that global warming will affect the world even if we managed to dramatically reduce emissions of GHGs today. Such trends would continue for a long period, could be decades or centuries to come (<a style="text-decoration: none;" href="https://www.sciencedirect.com/science/article/pii/S1815385216000158#b0175">UNEP, 2003</a>). Therefore, cutting <a style="text-decoration: none;" href="https://www.sciencedirect.com/topics/physics-and-astronomy/greenhouse-gas-emission">GHGs emissions</a> in order to minimize future climate change as well as responding to the unavoidable impacts that our past emissions will cause must be a top priority. The Emission Gap reports prepared by the <a style="text-decoration: none;" href="https://www.sciencedirect.com/topics/agricultural-and-biological-sciences/united-nations-environment-programme">United Nations Environment Program</a> (UNEP) advocate that a universal and collaborative effort to reduce <a style="text-decoration: none;" href="https://www.sciencedirect.com/topics/agricultural-and-biological-sciences/carbon-footprint">carbon footprint</a> is the only way to ease the greenhouse effect and reduce the impact of global warming (<a style="text-decoration: none;" href="https://www.sciencedirect.com/science/article/pii/S1815385216000158#b0180">UNEP, 2013</a>). Contributions such as saving energy around the house, using public transportation and <a style="text-decoration: none;" href="https://www.sciencedirect.com/topics/physics-and-astronomy/renewable-energy">renewable energy</a> can help too (<a style="text-decoration: none;" href="https://www.sciencedirect.com/science/article/pii/S1815385216000158#b0065">Brown, 2009</a>), but it all starts with raising awareness (<a style="text-decoration: none;" href="https://www.sciencedirect.com/science/article/pii/S1815385216000158#b0175">UNEP, 2003</a>).
+                      </div>
+                        <img src="img 8.jpg" class="img-fluid rounded-circle d-block m-auto" style="width: 300px;">
+                    </div>
+                  </div>
+                </div>
+                <div class="accordion-item">
+                  <h2 class="accordion-header" id="flush-headingThree">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseThree" aria-expanded="false" aria-controls="flush-collapseThree">
+                      Awareness about Global Warming
+                    </button>
+                  </h2>
+                  <div id="flush-collapseThree" class="accordion-collapse collapse" aria-labelledby="flush-headingThree" data-bs-parent="#accordionFlushExample">
+                    <div class="accordion-body" style="background-color: rgba(255, 0, 0, 0.534); margin-left: 1%; margin-right: 5%;margin-top: 1%; margin-bottom: 1%; border-radius: 15px; font-size: 120%;">
+                      <h2 style="font-size: 200%;">
+                        We have to be aware!!!
+                      </h2>
+                      People everywhere need to understand how climate change is going to affect them and what can they do to cope, starting with understanding what is causing global warming and what effects it has in order to find out solutions and implement them (<a style="text-decoration: none;" href="https://www.sciencedirect.com/science/article/pii/S1815385216000158#b0175">UNEP, 2003</a>). Therefore, educating people and making them aware of this matter by including global warming issues in educational curricula at every level, and by revealing the misconception of students and people about global warming received from the mass media is of great importance. Today, environmental education of global warming from elementary school to the university level is the most effective way to raise the environmental consciousness among nations (<a style="text-decoration: none;" href="https://www.sciencedirect.com/science/article/pii/S1815385216000158#b0015">Anderson and Wallin, 2000</a>, <a style="text-decoration: none;" href="https://www.sciencedirect.com/science/article/pii/S1815385216000158#b0160">Skamp et al., 2009</a>, <a style="text-decoration: none;" href="https://www.sciencedirect.com/science/article/pii/S1815385216000158#b0165">Taber and Taylor, 2009</a>, <a style="text-decoration: none;" href="https://www.sciencedirect.com/science/article/pii/S1815385216000158#b0120">Kilinc et al., 2011</a>).
+                      As far as we know there are no available studies on the awareness of students about environmental issues in general and global warming specifically, in the kingdom of Bahrain or even in the Cooperation Council for the Arab States of the Gulf (GCC) except for the study of <a style="text-decoration: none;" href="https://www.sciencedirect.com/science/article/pii/S1815385216000158#b0010">Ambusaidi et al. (2012)</a> which was designed to determine grades 6–12 students’ view regarding actions that might help to reduce global warming and their willingness to participate in such actions. However, there is a substantial amount of international studies that have been conducted on school students’ perception, ideas and understanding on greenhouse effect, climate change and global warming (<a style="text-decoration: none;" href="https://www.sciencedirect.com/science/article/pii/S1815385216000158#b0055">Bozdogan, 2009</a>, <a style="text-decoration: none;" href="https://www.sciencedirect.com/science/article/pii/S1815385216000158#b0130">Liarakou et al., 2011</a>, <a style="text-decoration: none;" href="https://www.sciencedirect.com/science/article/pii/S1815385216000158#b0100">Hasiloglu et al., 2011</a>, <a style="text-decoration: none;" href="https://www.sciencedirect.com/science/article/pii/S1815385216000158#b0195">Yazadanparast et al., 2012</a>).<br>
+                      <img src="img 9.jpeg" class="img-fluid d-block m-auto mt-1" style="width: 350px;">
+                    </div>
+                  </div>
+                </div>
+            </div><hr>
+        <!--accordion ends here-->
+        </main>
+
+        <!--The footer section starts here-->
+        <footer>
+            <div class="row bg-dark m-auto">
+                <div class="col-1 mt-3 ml-3 mb-5">
+                    <img class="img-fluid" src="logo.png" alt="" style="width: 50px;">
+                </div>
+                <div class="col-3 mt-3 ml-0">
+                    <h1 class="text-white">Galaxy World</h1>
+                </div>
+                <div class="col-3 mt-2">
+                    <ul class="list">
+                        <li class="list-item"><a class="list-link" style="text-decoration: none;" href="index.html">Home</a></li>
+                        <li class="list-item"><a class="list-link" style="text-decoration: none;" href="projects.html">Projects</a></li>
+                        <li class="list-item dropdown"><a class="list-link dropdown-toggle" id="Dropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" style="text-decoration: none;" href="">Contact</a>
+                            <div class="dropdown-menu" aria-labelledby="Dropdown">
+                                <a class="dropdown-item" href="mailto:tirthadas9777@gmail.com">Contact with developer</a>
+                                <a class="dropdown-item" href="https://www.facebook.com/tahsin.shamonti">Contact with Article writer</a>
+                            </div>
+                        </li>
+                        <li class="list-item"><a class="list-link" style="text-decoration: none;" href="about.html">About Us</a></li>
+                        
+                    </ul>
+                </div>
+                <div class="col-4 mt-2">
+                    <ul class="list">
+                        <li class="list-item"><a class="list-link" style="text-decoration: none;" href="#">Terms of Uses</a></li>
+                        <li class="list-item"><a class="list-link" style="text-decoration: none;" href="#">Privacy & Policy</a></li>
+                    </ul>
+                </div>
+                <div class="text-white text-center">
+                    <h5>
+                        Follow us on: 
+                    </h5>
+                    <div class="social-media">
+                        <div class="btn">
+                            <button><a href="https://www.facebook.com/tirthadas.tirtha.3"><i class="fab fa-facebook"></i></a></button>
+                            <button><a href="https://www.instagram.com/tirthadas.tirtha/"><i class="fab fa-instagram"></i></a></button>
+                            <button><a href="https://www.linkedin.com/in/tirtha-das-839913204/"><i class="fab fa-linkedin-in"></i></a></button>
+                            <button><a href="https://github.com/tirthadas9775"><i class="fab fa-github"></i></a></button>
+                            <button><a href="https://twitter.com/TirthaD71076759"><i class="fab fa-twitter"></i></a></button>
+                        </div>
+                    </div>
+                </div>
+                <div class="text-center text-white text-muted">
+                    Copyright 2021 | © Galaxy World
+                </div>
+            </div>
+        </footer>
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/js/bootstrap.bundle.min.js" integrity="sha384-JEW9xMcG8R+pH31jmWH6WWP0WintQrMb4s7ZOdauHnUtxwoG2vI5DkLtS3qm9Ekf" crossorigin="anonymous"></script>
+</body>
+</html>
